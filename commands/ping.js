@@ -5,10 +5,11 @@ module.exports.run = async (bot, message, args) =>{ //permet de communiquer avec
     if (message.content === 'h!ping') { //si le message est strictement égal à "h!ping" 
     message.reply('pong !') //on envoie "pong !"
     
-}
+    }
 }
 
 module.exports.help = { //On exporte des helps qu'on a définit dans "bot.commands.set(fileGet.help.name, fileGet)""
-    name: "ping"
+    name: "ping",
+    description: "Ping"
 }
 //test modif
