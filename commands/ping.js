@@ -11,3 +11,4 @@ module.exports.run = async (bot, message, args) =>{ //permet de communiquer avec
 module.exports.help = { //On exporte des helps qu'on a définit dans "bot.commands.set(fileGet.help.name, fileGet)""
     name: "ping"
 }
+//test modif
